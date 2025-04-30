@@ -3,6 +3,7 @@ module Main where
 import Brillo 
 import Graphics.Gloss
 import Equations
+import Linear 
 
 -- Planet data to hold necessary values 
 data Planet = 
