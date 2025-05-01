@@ -20,6 +20,36 @@
   (major1) == 4 && (major2) <  17 || \
   (major1) == 4 && (major2) == 17 && (minor) <= 2)
 #endif /* MIN_VERSION_base */
+/* package brillo-1.13.3 */
+#ifndef VERSION_brillo
+#define VERSION_brillo "1.13.3"
+#endif /* VERSION_brillo */
+#ifndef MIN_VERSION_brillo
+#define MIN_VERSION_brillo(major1,major2,minor) (\
+  (major1) <  1 || \
+  (major1) == 1 && (major2) <  13 || \
+  (major1) == 1 && (major2) == 13 && (minor) <= 3)
+#endif /* MIN_VERSION_brillo */
+/* package gloss-1.13.2.2 */
+#ifndef VERSION_gloss
+#define VERSION_gloss "1.13.2.2"
+#endif /* VERSION_gloss */
+#ifndef MIN_VERSION_gloss
+#define MIN_VERSION_gloss(major1,major2,minor) (\
+  (major1) <  1 || \
+  (major1) == 1 && (major2) <  13 || \
+  (major1) == 1 && (major2) == 13 && (minor) <= 2)
+#endif /* MIN_VERSION_gloss */
+/* package linear-1.23 */
+#ifndef VERSION_linear
+#define VERSION_linear "1.23"
+#endif /* VERSION_linear */
+#ifndef MIN_VERSION_linear
+#define MIN_VERSION_linear(major1,major2,minor) (\
+  (major1) <  1 || \
+  (major1) == 1 && (major2) <  23 || \
+  (major1) == 1 && (major2) == 23 && (minor) <= 0)
+#endif /* MIN_VERSION_linear */
 
 /* tool gcc-14.0.6 */
 #ifndef TOOL_VERSION_gcc
