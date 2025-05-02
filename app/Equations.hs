@@ -38,7 +38,7 @@ kmToMeters a = a * 1000
       
 -- orbital path/trajectory at time t
 orbitPosition :: Float -> Float -> Float -> Float -> Position
-orbitPosition a b omega t = (x, y)
+orbitPosition a b w t = (x, y)
   where
-    x = a * cos (omega * t)
-    y = b * sin (omega * t)
+    x = a * cos (w * t)
+    y = b * sin (w * t)
