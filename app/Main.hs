@@ -40,7 +40,9 @@ moon = MkPlanet 0 0.07346e24 1738.1 "resources/moon.png"
 main :: IO ()
 main = do
 
-  animateOrbit earth 2000 200  0.7 -- alt == km ; vel == km/s
+  -- animateOrbit earth 2000 200  0 -- alt == km ; vel == km/s
+  animateOrbit mars 2000 200  0 -- alt == km ; vel == km/s
+  -- animateOrbit moon 2000 600  0 -- alt == km ; vel == km/s
 
   {-
 
