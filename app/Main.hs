@@ -2,15 +2,8 @@ module Main where
 
 import Graphics.Gloss
 import Equations
-import Linear 
+import Orbit
 
--- Planet data to hold necessary values 
-data Planet = 
-    MkPlanet {
-        planetId :: Int ,  -- corresponds with closeness to sun
-        planetMass :: Double , -- in kg
-        planetRadius :: Double  -- in km
-    } 
 
 -- planets list ( https://nssdc.gsfc.nasa.gov/planetary/factsheet/planet_table_ratio.html )
 
@@ -45,7 +38,7 @@ moon = MkPlanet 0 0.07346e24 1738.1
 main :: IO ()
 main = do
 
-  animateOrbit earth 2000 7.8 -- alt == km ; vel == km/s
+  animateOrbit neptune 2000 7.8  0 -- alt == km ; vel == km/s
 
   {-
 
