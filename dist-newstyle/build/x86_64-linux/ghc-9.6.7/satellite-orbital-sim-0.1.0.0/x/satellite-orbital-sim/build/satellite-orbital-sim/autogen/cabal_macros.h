@@ -10,6 +10,16 @@
   (major1) == 0 && (major2) <  1 || \
   (major1) == 0 && (major2) == 1 && (minor) <= 0)
 #endif /* MIN_VERSION_satellite_orbital_sim */
+/* package JuicyPixels-3.3.9 */
+#ifndef VERSION_JuicyPixels
+#define VERSION_JuicyPixels "3.3.9"
+#endif /* VERSION_JuicyPixels */
+#ifndef MIN_VERSION_JuicyPixels
+#define MIN_VERSION_JuicyPixels(major1,major2,minor) (\
+  (major1) <  3 || \
+  (major1) == 3 && (major2) <  3 || \
+  (major1) == 3 && (major2) == 3 && (minor) <= 9)
+#endif /* MIN_VERSION_JuicyPixels */
 /* package base-4.18.3.0 */
 #ifndef VERSION_base
 #define VERSION_base "4.18.3.0"
@@ -30,6 +40,16 @@
   (major1) == 1 && (major2) <  13 || \
   (major1) == 1 && (major2) == 13 && (minor) <= 3)
 #endif /* MIN_VERSION_brillo */
+/* package filepath-1.4.301.0 */
+#ifndef VERSION_filepath
+#define VERSION_filepath "1.4.301.0"
+#endif /* VERSION_filepath */
+#ifndef MIN_VERSION_filepath
+#define MIN_VERSION_filepath(major1,major2,minor) (\
+  (major1) <  1 || \
+  (major1) == 1 && (major2) <  4 || \
+  (major1) == 1 && (major2) == 4 && (minor) <= 301)
+#endif /* MIN_VERSION_filepath */
 /* package gloss-1.13.2.2 */
 #ifndef VERSION_gloss
 #define VERSION_gloss "1.13.2.2"
@@ -40,16 +60,16 @@
   (major1) == 1 && (major2) <  13 || \
   (major1) == 1 && (major2) == 13 && (minor) <= 2)
 #endif /* MIN_VERSION_gloss */
-/* package linear-1.23.1 */
-#ifndef VERSION_linear
-#define VERSION_linear "1.23.1"
-#endif /* VERSION_linear */
-#ifndef MIN_VERSION_linear
-#define MIN_VERSION_linear(major1,major2,minor) (\
-  (major1) <  1 || \
-  (major1) == 1 && (major2) <  23 || \
-  (major1) == 1 && (major2) == 23 && (minor) <= 1)
-#endif /* MIN_VERSION_linear */
+/* package gloss-juicy-0.2.3 */
+#ifndef VERSION_gloss_juicy
+#define VERSION_gloss_juicy "0.2.3"
+#endif /* VERSION_gloss_juicy */
+#ifndef MIN_VERSION_gloss_juicy
+#define MIN_VERSION_gloss_juicy(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  2 || \
+  (major1) == 0 && (major2) == 2 && (minor) <= 3)
+#endif /* MIN_VERSION_gloss_juicy */
 
 /* tool gcc-13 */
 #ifndef TOOL_VERSION_gcc
